@@ -4,7 +4,7 @@ const resumeOutput = document.getElementById('resumeOutput');
 form.addEventListener('submit', function(e) {
   e.preventDefault();
 
-  const fisrtName = document.getElementById('firstName').value;
+  const firstName = document.getElementById('firstName').value;
   const lastName = document.getElementById('lastName').value;
   const email = document.getElementById('email').value;
 
